@@ -11,4 +11,4 @@ python3 -m pip install numpy matplotlib scipy
 
 Download the HarmonicOscillator.py file to your device. 
 run ls to ensure the file is accessible by the terminal 
-RUN: python3 HarmonicOscillator.py
+RUN: python3 CPUWorkloads.py
