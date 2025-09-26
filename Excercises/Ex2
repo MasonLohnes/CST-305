@@ -1,0 +1,19 @@
+import numpy as np
+from scipy.integrate import odeint
+import matplotlib.pyplot as plt
+
+def model(x,t):
+	k = 0.2
+	dxdt = -k * x
+	return dxdt
+
+x0 = 5
+
+t = np.linspace(0,20)
+
+x = odeint(model, x0, t)
+
+plt.plot(t, x)
+plt.xlabel('time')
+plt.ylabel('x(t)')
+plt.show()
