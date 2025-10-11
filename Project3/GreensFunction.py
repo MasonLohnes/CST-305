@@ -1,3 +1,17 @@
+# ============================
+# Reece Gerhart & Mason Lohnes
+# ----------------------------
+# Imports:
+# Numpy, Matplotlib
+# ----------------------------
+# Approach to implementation:
+# Solve characteristic equations
+# Find particular solutions
+# Apply initial conditions
+# Compute solution components
+# Generate comparison plots
+# ============================
+
 import numpy as np
 import matplotlib.pyplot as plt
 
