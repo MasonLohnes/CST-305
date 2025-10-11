@@ -8,6 +8,6 @@ NumPy, Matplotlib, and SciPy:
 python3 -m pip install --upgrade pip
 python3 -m pip install numpy matplotlib scipy
 
-Download the GreensFunction.py file to your device. 
+Download the GreensFunctions.py file to your device. 
 run ls to ensure the file is accessible by the terminal 
-RUN: python3 GreensFunction.py
+RUN: python3 GreensFunctions.py
